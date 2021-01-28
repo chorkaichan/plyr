@@ -37,9 +37,7 @@ const support = {
 
   // Picture-in-picture support
   // Safari & Chrome only currently
-  pip: (() => {
-    return true;
-  })(),
+  pip: true,
 
   // Airplay support
   // Safari only currently
